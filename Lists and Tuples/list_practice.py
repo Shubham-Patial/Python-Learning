@@ -13,7 +13,7 @@ print(c) # to check if it has any return value or not
 print("This is the list which has Shubham inserted at the index of = ",l2)
 d = l2.pop(3)
 print(l2)
-print(d) # to check if it has any return value or not
+print(d) # To check if it has any return value or not
 print("This is the list from which Shubham has been removed = ",l2)
 f = l2.remove(54)
 print(f) # to check if it has any return value or not
@@ -22,6 +22,8 @@ fruits = ["Apple", "Mango", "Pineapple", "Watermelon", 45, 45.3, False, "Aditya"
 
 print(fruits)
 
-e = fruits.append("Deep") #append function is used to add any name in the last of the list
+e = fruits.append("Deep") #append function is used to add any value in the last of the list
 print(e) # to check if it has any return value or not
-print(fruits)
+print(fruits) # printing the list
+
+# ** Remember list is an mutable thing and they are kinda array 
