@@ -6,4 +6,4 @@ contents = os.listdir(directory_path)
 for item in contents:
     print(item)
 
-# Don't stress out if you don't understand this cause it was just a fun. Use chatgpt to get the explaination of this part of code
+# Don't stress out if you don't understand this cause it was just a fun. Use chatgpt to get the explaination of this part of code or send me an email

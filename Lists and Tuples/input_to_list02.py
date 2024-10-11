@@ -1,0 +1,17 @@
+marks = []
+student = int(input("Enter the marks of 1st Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 2nd Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 3rd Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 4th Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 5th Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 6th Student = "))
+marks.append(student)
+student = int(input("Enter the marks of 7th Student = "))
+marks.append(student)
+marks.sort() # Sorts the numbers of all the students from ascending to descending order
+print(marks) 
