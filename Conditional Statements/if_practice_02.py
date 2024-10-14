@@ -2,11 +2,11 @@
 
 subject_1 = int(input("Enter the makrs of the English subject = "))
 subject_2 = int(input("Enter the makrs of the Maths subject = "))
-subject_3 = int(input("Enter the makrs of the Science subject = "))
+subject_3 = int(input("Enter the makrs of the Science subject = ")) # gets the user input
 
-percentage = (100 * (subject_1 + subject_2 + subject_3)) / 300
+percentage = (100 * (subject_1 + subject_2 + subject_3)) / 300 # uses maths to calculate the overall percentage of student in 3 subjects
 
-if (subject_1 < 33):
+if (subject_1 < 33): # checks conditions and if this condition is true it will run print and exit but if it is false it will jump over to the next block of code
     print("You failed in English subject")
 elif (subject_2 < 33):
     print("You failed in Maths subject")
