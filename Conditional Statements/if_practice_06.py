@@ -14,7 +14,7 @@ marks_5 = float(input("Enter your marks in Computer = "))
 marks_5 = float(input("Enter your marks in Geography = "))
 marks_6 = float(input("Enter your marks in Arts = "))
 
-percentage = (100 * (marks_1 + marks_2 + marks_3 + marks_4 + marks_5 + marks_6) / 600)
+percentage = (100 * (marks_1 + marks_2 + marks_3 + marks_4 + marks_5 + marks_6) / 600) # calculates the percentage
 
 if (percentage >= 90):
     print("Your grade is Excellent")
@@ -27,4 +27,4 @@ elif (percentage >= 60 and percentage < 70):
 elif (percentage >= 50 and percentage < 60):
     print("Your grade is D")
 else:
-    print("Your grade is F")
+    print("Your grade is F") # if - elif ladder
