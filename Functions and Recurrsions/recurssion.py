@@ -6,12 +6,12 @@
 
 # For example if we talk about finding the factorial of n number
 
-# def facctorial(n):
-#     if(n == 1 or n == 0):
-#         return 1
-#     return facctorial(n - 1) * n
+def facctorial(n):
+     if(n == 1 or n == 0):
+         return 1
+     return facctorial(n - 1) * n
 
-# n = int(input("Enter the number you want to find the factorial of = "))
+n = int(input("Enter the number you want to find the factorial of = "))
 
 # print(facctorial(n))
 # Use Recursion to print the fibonacci series of n numbers
