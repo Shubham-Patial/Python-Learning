@@ -1,6 +1,6 @@
 # Question:- Write a python program using function to print multiplication table of a given number
 
-def multiplication(n):
+def multiplication(n): # function definition accepting one parameter
     for i in range(1,11):
         print(f"{n} x {i} = {n*i}")
 
