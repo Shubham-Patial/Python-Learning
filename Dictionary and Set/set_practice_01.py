@@ -2,7 +2,7 @@
 
 unique_set = set()
 number= int(input("Enter the first number :- "))
-unique_set.add(int(number))
+unique_set.add(int(number)) # add method is used to add value in set and it will remove the duplicate value
 number= int(input("Enter the second number :- "))
 unique_set.add(int(number))
 number= int(input("Enter the third number :- "))

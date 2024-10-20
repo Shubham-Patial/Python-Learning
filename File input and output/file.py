@@ -1,4 +1,4 @@
-f = open("Aditya.txt", "a") # This is the way to open the file and write in the file
+f = open("Aditya.txt", "w") # This is the way to open the file and write in the file
 learn = f.write("Aditya is a bad boy") # 
 f.close()
 s = "Aditya is a bad boy" #Another way of writing into the file
