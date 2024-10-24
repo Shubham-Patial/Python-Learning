@@ -1,1 +1,1 @@
-This is a guess game which is coded with very general coding
+This is a guess game which is coded with very general knowledge in programming and that too in python. All the code is commented clearing every doubt one could have. I hope you guys like it and enjoyyy. See ya.
