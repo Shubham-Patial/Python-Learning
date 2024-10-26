@@ -1,7 +1,7 @@
 class Calculator:
-    def __init__(self, number):
+    def __init__(self, number):  # defining the init function which is a constructor and it calls itself when function call is made
         self.number = number
-    @staticmethod    
+    @staticmethod # staticmethod is used when we want to define a function which does not take any argument
     def greet():
         print("Hello, Good morning and thanks for using this program")
     def square(self):
