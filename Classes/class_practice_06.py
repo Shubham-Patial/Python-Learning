@@ -1,10 +1,10 @@
-from random import randint
+from random import randint # importing random number from random library
 class Game:
 
-    def __init__(harry, number):
+    def __init__(harry, number):  # defining the init function which is a constructor and it calls itself when function call is made
         harry.number = number
     def like_game(harry):
-        if(harry.number < 20):
+        if(harry.number < 20): # conditional statements
             print("You don't love to play any outdoor sport cause your liking score was = {harry.number}")
         elif harry.number >= 20 and harry.number < 60:
             print(f"You like to play Cricket more than Badminton as the liking score was = {harry.number}")

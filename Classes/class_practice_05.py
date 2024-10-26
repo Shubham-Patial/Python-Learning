@@ -1,4 +1,4 @@
-from random import randint
+from random import randint # importing random number from random library
 class Train:
     def __init__(self, train_No):
         self.train_No = train_No
@@ -9,7 +9,7 @@ class Train:
     def fare(self, start_loc, destination):
         print(f"The fare for train No {self.train_No} running from {start_loc} to {destination} is {randint(1000, 5000)}")
 
-t = Train(4535)
+t = Train(4535) # creating object of class Train and passing the train number
 t.book("Hoshiarpur", "Patiala")
 t.status("Hoshiarpur", "Patiala")
 t.fare("Hoshiarpur", "Patiala")
