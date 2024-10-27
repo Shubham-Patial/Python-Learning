@@ -2,7 +2,7 @@
 with open("multiple_words.txt") as f:
     content = f.read() # storing the contents of the file
 
-updated_file = content.replace("######", "Donkey") # replace the 
+updated_file = content.replace("Donkey", "######") # replace method is used to replace the following word with the given word in the file and updated file is used to store the updated content of the file 
 
-with open("multiple_words.txt", "w") as f:
-    f.write(updated_file)
+with open("multiple_words.txt", "w") as f: 
+    f.write(updated_file) # writing the updated content stored in updated_file in multiple_words.txt

@@ -2,8 +2,8 @@
 
 
 with open("log.txt") as f: 
-    lines = f.readlines()
-lineno = 1
+    lines = f.readlines() # used to get the lines of the files in the form of list
+lineno = 1  # counter for counting the line number
 for line in lines:
     if ("python" in line):
         print(f"Word found in log file in no. {lineno}")
